@@ -5,6 +5,7 @@
     using EndpointTemplates;
     using NUnit.Framework;
 
+    [Explicit]
     public class When_using_autosubscribe_with_missing_routing_information : NServiceBusAcceptanceTest
     {
         [Test]

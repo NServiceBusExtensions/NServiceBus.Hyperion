@@ -10,6 +10,7 @@ namespace NServiceBus.AcceptanceTests.Routing.MessageDrivenSubscriptions
     using NServiceBus.Config;
     using NUnit.Framework;
 
+    [Explicit]
     public class When_using_assembly_level_message_mapping_for_pub_sub : NServiceBusAcceptanceTest
     {
         [Test]

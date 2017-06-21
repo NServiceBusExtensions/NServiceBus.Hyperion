@@ -9,7 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Hyperion" Version="0.9.2" />
-    <PackageReference Include="NServiceBus" Version="6.3.3" />
+    <PackageReference Include="NServiceBus" Version="6.3.4" />
     <PackageReference Include="PepitaPackage" Version="1.21.4" />
   </ItemGroup>
   <Target Name="NuGetBuild" AfterTargets="AfterBuild">
