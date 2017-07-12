@@ -2,14 +2,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net452</TargetFramework>
+    <TargetFramework>net462</TargetFramework>
     <OutputType>Exe</OutputType>
-    <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Hyperion" Version="0.9.2" />
-    <PackageReference Include="NServiceBus" Version="6.3.4" />
+    <PackageReference Include="Hyperion" Version="0.9.*" />
     <ProjectReference Include="..\NServiceBus.Hyperion\NServiceBus.Hyperion.csproj" />
   </ItemGroup>
 </Project>

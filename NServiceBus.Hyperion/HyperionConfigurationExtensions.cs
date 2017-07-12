@@ -1,5 +1,5 @@
 ﻿using Hyperion;
-using NServiceBus.Configuration.AdvanceExtensibility;
+using NServiceBus.Configuration.AdvancedExtensibility;
 using NServiceBus.Serialization;
 using NServiceBus.Settings;
 using NServiceBus.Hyperion;
