@@ -2,13 +2,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net452</TargetFrameworks>
-    <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-
-
     <PackageId>NServiceBus.Hyperion</PackageId>
-    <PackageVersion>1.1.0-beta001</PackageVersion>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <FileVersion>1.1.0</FileVersion>
+    <InformationalVersion>$(FileVersion)</InformationalVersion>
+    <PackageVersion>$(FileVersion)-beta001</PackageVersion>
     <Authors>Simon Cropp</Authors>
     <PackageLicenseUrl>http://www.opensource.org/licenses/mit-license.php</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -16,8 +15,8 @@
     <PackageTags>NServiceBus, Hyperion</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/SimonCropp/NServiceBus.Hyperion/master/Icon/package_icon.png</PackageIconUrl>
     <PackageProjectUrl>https://docs.particular.net/nuget/$(PackageId)</PackageProjectUrl>
-    <PackageOutputPath>$(SolutionDir)NuGetBuild</PackageOutputPath>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Hyperion" Version="0.9.*" />
