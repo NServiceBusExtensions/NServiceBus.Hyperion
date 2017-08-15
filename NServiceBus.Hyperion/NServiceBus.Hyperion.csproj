@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net452</TargetFrameworks>
+    <TargetFrameworks>net452;netstandard2.0</TargetFrameworks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>NServiceBus.Hyperion</PackageId>
     <AssemblyVersion>1.1.0</AssemblyVersion>
     <FileVersion>1.1.0</FileVersion>
     <InformationalVersion>$(FileVersion)</InformationalVersion>
-    <PackageVersion>$(FileVersion)-beta001</PackageVersion>
+    <PackageVersion>$(FileVersion)-beta002</PackageVersion>
     <Authors>Simon Cropp</Authors>
     <PackageLicenseUrl>http://www.opensource.org/licenses/mit-license.php</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -20,7 +20,7 @@
     <TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage);IncludePDBsInPackage</TargetsForTfmSpecificContentInPackage>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Hyperion" Version="[0.9.0, 1.0.0)" />
+    <PackageReference Include="Hyperion" Version="[0.9.5, 1.0.0)" />
     <PackageReference Include="NServiceBus" Version="[7.0.0-*, 8.0.0)" />
   </ItemGroup>
   <Target Name="IncludePDBsInPackage">
