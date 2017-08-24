@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net462</TargetFramework>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TargetFrameworks>net462;netcoreapp2.0</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NUnit" Version="*" />
-    <ProjectReference Include="..\NServiceBus.Hyperion\NServiceBus.Hyperion.csproj"/>
+    <ProjectReference Include="..\NServiceBus.Hyperion\NServiceBus.Hyperion.csproj" />
   </ItemGroup>
 </Project>
