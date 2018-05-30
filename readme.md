@@ -1,9 +1,9 @@
-![Icon](https://raw.githubusercontent.com/simoncropp/NServiceBus.Hyperion/master/icon.png)
+![Icon](https://raw.githubusercontent.com/NServiceBusExtensions/NServiceBus.Hyperion/master/icon.png)
 
 
 # NServiceBus.Hyperion
 
-Add support for [NServiceBus](http://particular.net/NServiceBus) message serialization via [Hyperion](https://github.com/akkadotnet/Hyperion) binary serializer.
+Add support for [NServiceBus](https://particular.net/NServiceBus) message serialization via [Hyperion](https://github.com/akkadotnet/Hyperion) binary serializer.
 
 
 ## The NuGet package  [![NuGet Status](http://img.shields.io/nuget/v/NServiceBus.Hyperion.svg?style=flat)](https://www.nuget.org/packages/NServiceBus.Hyperion/)
@@ -15,7 +15,7 @@ https://www.nuget.org/packages/NServiceBus.Hyperion
 
 ## Documentation
 
-https://docs.particular.net/nservicebus/serialization/hyperion
+https://docs.particular.net/nuget/NServiceBus.Hyperion
 
 
 ## Icon

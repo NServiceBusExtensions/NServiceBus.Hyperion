@@ -1,18 +1,16 @@
 ﻿using Hyperion;
-using NServiceBus.Configuration.AdvanceExtensibility;
+using NServiceBus.Configuration.AdvancedExtensibility;
 using NServiceBus.Serialization;
 using NServiceBus.Settings;
 using NServiceBus.Hyperion;
 
 namespace NServiceBus
 {
-
     /// <summary>
     /// Extensions for <see cref="SerializationExtensions{T}"/> to manipulate how messages are serialized via Hyperion.
     /// </summary>
     public static class HyperionConfigurationExtensions
     {
-
         /// <summary>
         /// Configures the <see cref="SerializerOptions"/> to use.
         /// </summary>
@@ -21,6 +19,7 @@ namespace NServiceBus
         public static void Options(this SerializationExtensions<HyperionSerializer> config, SerializerOptions options)
         {
             Guard.AgainstNull(config, nameof(config));
+            Guard.AgainstNull(options, nameof(options));
             var settings = config.GetSettings();
             settings.Set<SerializerOptions>(options);
         }
