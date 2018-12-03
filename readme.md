@@ -1,9 +1,4 @@
-![Icon](https://raw.githubusercontent.com/NServiceBusExtensions/NServiceBus.Hyperion/master/icon.png)
-
-
-# NServiceBus.Hyperion
-
-Add support for [NServiceBus](https://particular.net/NServiceBus) message serialization via [Hyperion](https://github.com/akkadotnet/Hyperion) binary serializer.
+<img src="https://raw.github.com/NServiceBusExtensions/NServiceBus.Hyperion/master/src/icon.png" height="25px"> Add support for [NServiceBus](https://particular.net/NServiceBus) message serialization via [Hyperion](https://github.com/akkadotnet/Hyperion) binary serializer.
 
 <!--- StartOpenCollectiveBackers -->
 
