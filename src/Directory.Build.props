@@ -3,15 +3,15 @@
   <PropertyGroup>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <LangVersion>latest</LangVersion>
-    <Version>3.0.0</Version>
-    <PackageLicenseUrl>http://www.opensource.org/licenses/mit-license.php</PackageLicenseUrl>
+    <Version>3.0.1</Version>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Copyright>Copyright $([System.DateTime]::UtcNow.ToString(yyyy)). All rights reserved</Copyright>
     <PackageTags>NServiceBus, Hyperion</PackageTags>
-    <PackageIconUrl>https://raw.githubusercontent.com/NServiceBusExtensions/NServiceBus.Hyperion/master/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/NServiceBusExtensions/NServiceBus.Hyperion/master/src/icon.png</PackageIconUrl>
     <PackageProjectUrl>https://docs.particular.net/nuget/NServiceBus.Hyperion</PackageProjectUrl>
     <RepositoryUrl>https://github.com/NServiceBusExtensions/NServiceBus.Hyperion</RepositoryUrl>
-    <PackageOutputPath>..\nugets</PackageOutputPath>
+    <PackageOutputPath>..\..\nugets</PackageOutputPath>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <DebugType>embedded</DebugType>
     <DebugSymbols>true</DebugSymbols>
