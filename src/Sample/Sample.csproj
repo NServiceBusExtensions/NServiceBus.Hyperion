@@ -6,7 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Hyperion" Version="0.9.8" />
-    <PackageReference Include="NServiceBus" Version="7.1.8" />
+    <PackageReference Include="NServiceBus" Version="7.1.9" />
     <ProjectReference Include="..\NServiceBus.Hyperion\NServiceBus.Hyperion.csproj" />
   </ItemGroup>
 </Project>
