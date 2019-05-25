@@ -25,7 +25,7 @@ Thanks to all the backing developers! Support this project by [becoming a patron
 
 <a href="#" id="endofbacking"></a>
 
-## The NuGet package [![NuGet Status](http://img.shields.io/nuget/v/NServiceBus.Hyperion.svg?style=flat)](https://www.nuget.org/packages/NServiceBus.Hyperion/)
+## The NuGet package [![NuGet Status](http://img.shields.io/nuget/v/NServiceBus.Hyperion.svg)](https://www.nuget.org/packages/NServiceBus.Hyperion/)
 
 https://www.nuget.org/packages/NServiceBus.Hyperion
 
