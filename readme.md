@@ -29,8 +29,6 @@ Thanks to all the backing developers! Support this project by [becoming a patron
 
 https://www.nuget.org/packages/NServiceBus.Hyperion
 
-    PM> Install-Package NServiceBus.Hyperion
-
 
 ## Documentation
 
@@ -39,4 +37,4 @@ https://docs.particular.net/nuget/NServiceBus.Hyperion
 
 ## Icon
 
-Icon [Beetle](https://thenounproject.com/term/beetle/861510) (CC BY 3.0) designed by B Farias from the [Noun Project](http://www.thenounproject.com).
+[Beetle](https://thenounproject.com/term/beetle/861510) (CC BY 3.0) designed by B Farias from the [Noun Project](http://www.thenounproject.com).
