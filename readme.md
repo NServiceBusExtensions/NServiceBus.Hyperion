@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/NServiceBusExtensions/NServiceBus.Hyperion/master/src/icon.png" height="25px"> Add support for [NServiceBus](https://particular.net/NServiceBus) message serialization via [Hyperion](https://github.com/akkadotnet/Hyperion) binary serializer.
+<img src="/src/icon.png" height="25px"> Add support for [NServiceBus](https://particular.net/NServiceBus) message serialization via [Hyperion](https://github.com/akkadotnet/Hyperion) binary serializer.
 
 <!--- StartOpenCollectiveBackers -->
 
@@ -25,9 +25,9 @@ Thanks to all the backing developers! Support this project by [becoming a patron
 
 <a href="#" id="endofbacking"></a>
 
-## The NuGet package [![NuGet Status](http://img.shields.io/nuget/v/NServiceBus.Hyperion.svg)](https://www.nuget.org/packages/NServiceBus.Hyperion/)
+## NuGet package
 
-https://www.nuget.org/packages/NServiceBus.Hyperion
+https://www.nuget.org/packages/NServiceBus.Hyperion [![NuGet Status](http://img.shields.io/nuget/v/NServiceBus.Hyperion.svg)](https://www.nuget.org/packages/NServiceBus.Hyperion/)
 
 
 ## Documentation
@@ -37,4 +37,4 @@ https://docs.particular.net/nuget/NServiceBus.Hyperion
 
 ## Icon
 
-[Beetle](https://thenounproject.com/term/beetle/861510) (CC BY 3.0) designed by B Farias from the [Noun Project](http://www.thenounproject.com).
+[Beetle](https://thenounproject.com/term/beetle/861510) designed by [B Farias](https://thenounproject.com/bfarias/) from [The Noun Project](https://thenounproject.com).
