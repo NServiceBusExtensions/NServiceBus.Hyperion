@@ -4,5 +4,6 @@
     <Version>3.0.1</Version>
     <PackageTags>NServiceBus, Hyperion</PackageTags>
     <PackageProjectUrl>https://docs.particular.net/nuget/NServiceBus.Hyperion</PackageProjectUrl>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 </Project>
