@@ -7,5 +7,6 @@
     <PackageReference Include="Hyperion" Version="0.9.8" />
     <PackageReference Include="NServiceBus" Version="7.1.10" />
     <PackageReference Include="ProjectDefaults" Version="1.0.15" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-19367-01" PrivateAssets="All" />
   </ItemGroup>
 </Project>
