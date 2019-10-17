@@ -5,7 +5,7 @@
     <OutputType>Exe</OutputType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Hyperion" Version="0.9.9" />
+    <PackageReference Include="Hyperion" Version="0.9.10" />
     <PackageReference Include="NServiceBus" Version="7.1.10" />
     <ProjectReference Include="..\NServiceBus.Hyperion\NServiceBus.Hyperion.csproj" />
     <PackageReference Include="ProjectDefaults" Version="1.0.26" PrivateAssets="All" />
