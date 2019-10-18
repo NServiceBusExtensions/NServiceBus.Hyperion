@@ -21,7 +21,7 @@ namespace NServiceBus
             Guard.AgainstNull(config, nameof(config));
             Guard.AgainstNull(options, nameof(options));
             var settings = config.GetSettings();
-            settings.Set<SerializerOptions>(options);
+            settings.Set(options);
         }
 
         internal static SerializerOptions GetOptions(this ReadOnlySettings settings)

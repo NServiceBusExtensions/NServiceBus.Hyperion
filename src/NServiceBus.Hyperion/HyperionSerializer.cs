@@ -8,7 +8,8 @@
     /// <summary>
     /// Defines the capabilities of the Hyperion serializer
     /// </summary>
-    public class HyperionSerializer : SerializationDefinition
+    public class HyperionSerializer :
+        SerializationDefinition
     {
         /// <summary>
         /// <see cref="SerializationDefinition.Configure"/>

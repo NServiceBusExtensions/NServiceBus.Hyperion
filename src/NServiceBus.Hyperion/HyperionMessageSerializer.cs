@@ -4,7 +4,8 @@ using System.IO;
 using NServiceBus.Serialization;
 using Hyperion;
 
-class HyperionMessageSerializer : IMessageSerializer
+class HyperionMessageSerializer :
+    IMessageSerializer
 {
     Serializer serializer;
 
