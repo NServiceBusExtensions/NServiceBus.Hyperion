@@ -7,7 +7,7 @@ To change this file edit the source file and then run MarkdownSnippets.
 
 # <img src="/src/icon.png" height="30px"> NServiceBus.Hyperion
 
-[![Build status](https://ci.appveyor.com/api/projects/status/20f8p78334a1utj4/branch/master?svg=true)](https://ci.appveyor.com/project/SimonCropp/NServiceBus.Hyperion)
+[![Build status](https://ci.appveyor.com/api/projects/status/20f8p78334a1utj4/branch/master?svg=true)](https://ci.appveyor.com/project/SimonCropp/nservicebus-Hyperion)
 [![NuGet Status](https://img.shields.io/nuget/v/NServiceBus.Hyperion.svg?cacheSeconds=86400)](https://www.nuget.org/packages/NServiceBus.Hyperion/)
 
 Add support for [NServiceBus](https://particular.net/NServiceBus) message serialization via [Hyperion](https://github.com/akkadotnet/Hyperion) binary serializer.
