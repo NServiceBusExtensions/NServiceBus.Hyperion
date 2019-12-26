@@ -4,32 +4,32 @@ using Hyperion;
 
 class Usage
 {
-    Usage(EndpointConfiguration endpointConfiguration)
+    Usage(EndpointConfiguration configuration)
     {
         #region HyperionSerialization
 
-        endpointConfiguration.UseSerialization<HyperionSerializer>();
+        configuration.UseSerialization<HyperionSerializer>();
 
         #endregion
     }
 
-    void CustomSettings(EndpointConfiguration endpointConfiguration)
+    void CustomSettings(EndpointConfiguration configuration)
     {
         #region HyperionCustomSettings
 
         var options = new SerializerOptions(
             preserveObjectReferences: true);
-        var serialization = endpointConfiguration.UseSerialization<HyperionSerializer>();
+        var serialization = configuration.UseSerialization<HyperionSerializer>();
         serialization.Options(options);
 
         #endregion
     }
 
-    void ContentTypeKey(EndpointConfiguration endpointConfiguration)
+    void ContentTypeKey(EndpointConfiguration configuration)
     {
         #region HyperionContentTypeKey
 
-        var serialization = endpointConfiguration.UseSerialization<HyperionSerializer>();
+        var serialization = configuration.UseSerialization<HyperionSerializer>();
         serialization.ContentTypeKey("custom-key");
 
         #endregion
