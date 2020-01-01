@@ -20,9 +20,7 @@ Add support for [NServiceBus](https://particular.net/NServiceBus) message serial
     * [Patrons](#patrons)
   * [Usage](#usage)
     * [Custom Settings](#custom-settings)
-    * [Custom content key](#custom-content-key)
-<!-- endtoc -->
-
+    * [Custom content key](#custom-content-key)<!-- endtoc -->
 
 <!--- StartOpenCollectiveBackers -->
 
@@ -31,7 +29,7 @@ Add support for [NServiceBus](https://particular.net/NServiceBus) message serial
 
 ## Community backed
 
-**It is expected that all developers [become a Patron](https://opencollective.com/nservicebusextensions/order/6976) to use any of these libraries. [Go to licensing FAQ](https://github.com/NServiceBusExtensions/Home/blob/master/readme.md#licensingpatron-faq)**
+**It is expected that all developers [become a Patron](https://opencollective.com/nservicebusextensions/order/6976) to use any of these libraries. [Go to licensing FAQ](https://github.com/NServiceBusExtensions/Home/#licensingpatron-faq)**
 
 
 ### Sponsors
@@ -55,9 +53,9 @@ Thanks to all the backing developers! Support this project by [becoming a patron
 <!-- snippet: HyperionSerialization -->
 <a id='snippet-hyperionserialization'/></a>
 ```cs
-endpointConfiguration.UseSerialization<HyperionSerializer>();
+configuration.UseSerialization<HyperionSerializer>();
 ```
-<sup>[snippet source](/src/Tests/Snippets/Usage.cs#L9-L13) / [anchor](#snippet-hyperionserialization)</sup>
+<sup><a href='/src/Tests/Snippets/Usage.cs#L9-L13' title='File snippet `hyperionserialization` was extracted from'>snippet source</a> | <a href='#snippet-hyperionserialization' title='Navigate to start of snippet `hyperionserialization`'>anchor</a></sup>
 <!-- endsnippet -->
 
 This serializer does not support [messages defined as interfaces](https://docs.particular.net/nservicebus/messaging/messages-as-interfaces). If an explicit interface is sent, an exception will be thrown with the following message:
@@ -79,10 +77,10 @@ Customizes the instance of `SerializerOptions` used for serialization.
 ```cs
 var options = new SerializerOptions(
     preserveObjectReferences: true);
-var serialization = endpointConfiguration.UseSerialization<HyperionSerializer>();
+var serialization = configuration.UseSerialization<HyperionSerializer>();
 serialization.Options(options);
 ```
-<sup>[snippet source](/src/Tests/Snippets/Usage.cs#L18-L25) / [anchor](#snippet-hyperioncustomsettings)</sup>
+<sup><a href='/src/Tests/Snippets/Usage.cs#L18-L25' title='File snippet `hyperioncustomsettings` was extracted from'>snippet source</a> | <a href='#snippet-hyperioncustomsettings' title='Navigate to start of snippet `hyperioncustomsettings`'>anchor</a></sup>
 <!-- endsnippet -->
 
 
@@ -93,10 +91,10 @@ When using [additional deserializers](https://docs.particular.net/nservicebus/se
 <!-- snippet: HyperionContentTypeKey -->
 <a id='snippet-hyperioncontenttypekey'/></a>
 ```cs
-var serialization = endpointConfiguration.UseSerialization<HyperionSerializer>();
+var serialization = configuration.UseSerialization<HyperionSerializer>();
 serialization.ContentTypeKey("custom-key");
 ```
-<sup>[snippet source](/src/Tests/Snippets/Usage.cs#L30-L35) / [anchor](#snippet-hyperioncontenttypekey)</sup>
+<sup><a href='/src/Tests/Snippets/Usage.cs#L30-L35' title='File snippet `hyperioncontenttypekey` was extracted from'>snippet source</a> | <a href='#snippet-hyperioncontenttypekey' title='Navigate to start of snippet `hyperioncontenttypekey`'>anchor</a></sup>
 <!-- endsnippet -->
 
 
