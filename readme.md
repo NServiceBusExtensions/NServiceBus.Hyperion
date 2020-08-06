@@ -58,7 +58,7 @@ Support is available via a [Tidelift Subscription](https://tidelift.com/subscrip
 ## Usage
 
 <!-- snippet: HyperionSerialization -->
-<a id='snippet-hyperionserialization'/></a>
+<a id='snippet-hyperionserialization'></a>
 ```cs
 configuration.UseSerialization<HyperionSerializer>();
 ```
@@ -80,7 +80,7 @@ Instead, use a public class with the same contract as the interface. The class c
 Customizes the instance of `SerializerOptions` used for serialization.
 
 <!-- snippet: HyperionCustomSettings -->
-<a id='snippet-hyperioncustomsettings'/></a>
+<a id='snippet-hyperioncustomsettings'></a>
 ```cs
 var options = new SerializerOptions(
     preserveObjectReferences: true);
@@ -96,7 +96,7 @@ serialization.Options(options);
 When using [additional deserializers](https://docs.particular.net/nservicebus/serialization/#specifying-additional-deserializers) or transitioning between different versions of the same serializer it can be helpful to take explicit control over the content type a serializer passes to NServiceBus (to be used for the [ContentType header](https://docs.particular.net/nservicebus/messaging/headers#serialization-headers-nservicebus-contenttype)).
 
 <!-- snippet: HyperionContentTypeKey -->
-<a id='snippet-hyperioncontenttypekey'/></a>
+<a id='snippet-hyperioncontenttypekey'></a>
 ```cs
 var serialization = configuration.UseSerialization<HyperionSerializer>();
 serialization.ContentTypeKey("custom-key");
