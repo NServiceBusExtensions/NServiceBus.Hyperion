@@ -22,7 +22,7 @@ Add support for [NServiceBus](https://particular.net/NServiceBus) message serial
   * [Usage](#usage)
     * [Custom Settings](#custom-settings)
     * [Custom content key](#custom-content-key)
-  * [Security contact information](#security-contact-information)<!-- endtoc -->
+  * [Security contact information](#security-contact-information)<!-- endToc -->
 
 <!--- StartOpenCollectiveBackers -->
 
@@ -63,7 +63,7 @@ Support is available via a [Tidelift Subscription](https://tidelift.com/subscrip
 configuration.UseSerialization<HyperionSerializer>();
 ```
 <sup><a href='/src/Tests/Snippets/Usage.cs#L9-L13' title='File snippet `hyperionserialization` was extracted from'>snippet source</a> | <a href='#snippet-hyperionserialization' title='Navigate to start of snippet `hyperionserialization`'>anchor</a></sup>
-<!-- endsnippet -->
+<!-- endSnippet -->
 
 This serializer does not support [messages defined as interfaces](https://docs.particular.net/nservicebus/messaging/messages-as-interfaces). If an explicit interface is sent, an exception will be thrown with the following message:
 
@@ -88,7 +88,7 @@ var serialization = configuration.UseSerialization<HyperionSerializer>();
 serialization.Options(options);
 ```
 <sup><a href='/src/Tests/Snippets/Usage.cs#L18-L25' title='File snippet `hyperioncustomsettings` was extracted from'>snippet source</a> | <a href='#snippet-hyperioncustomsettings' title='Navigate to start of snippet `hyperioncustomsettings`'>anchor</a></sup>
-<!-- endsnippet -->
+<!-- endSnippet -->
 
 
 ### Custom content key
@@ -102,7 +102,7 @@ var serialization = configuration.UseSerialization<HyperionSerializer>();
 serialization.ContentTypeKey("custom-key");
 ```
 <sup><a href='/src/Tests/Snippets/Usage.cs#L30-L35' title='File snippet `hyperioncontenttypekey` was extracted from'>snippet source</a> | <a href='#snippet-hyperioncontenttypekey' title='Navigate to start of snippet `hyperioncontenttypekey`'>anchor</a></sup>
-<!-- endsnippet -->
+<!-- endSnippet -->
 
 
 ## Security contact information
