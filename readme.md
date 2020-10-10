@@ -58,11 +58,11 @@ Support is available via a [Tidelift Subscription](https://tidelift.com/subscrip
 ## Usage
 
 <!-- snippet: HyperionSerialization -->
-<a id='170dcac3'></a>
+<a id='hyperionserialization'></a>
 ```cs
 configuration.UseSerialization<HyperionSerializer>();
 ```
-<sup><a href='/src/Tests/Snippets/Usage.cs#L9-L13' title='Snippet source file'>snippet source</a> | <a href='#170dcac3' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Snippets/Usage.cs#L9-L13' title='Snippet source file'>snippet source</a> | <a href='#hyperionserialization' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 This serializer does not support [messages defined as interfaces](https://docs.particular.net/nservicebus/messaging/messages-as-interfaces). If an explicit interface is sent, an exception will be thrown with the following message:
@@ -80,14 +80,14 @@ Instead, use a public class with the same contract as the interface. The class c
 Customizes the instance of `SerializerOptions` used for serialization.
 
 <!-- snippet: HyperionCustomSettings -->
-<a id='41d35cfc'></a>
+<a id='hyperioncustomsettings'></a>
 ```cs
 var options = new SerializerOptions(
     preserveObjectReferences: true);
 var serialization = configuration.UseSerialization<HyperionSerializer>();
 serialization.Options(options);
 ```
-<sup><a href='/src/Tests/Snippets/Usage.cs#L18-L25' title='Snippet source file'>snippet source</a> | <a href='#41d35cfc' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Snippets/Usage.cs#L18-L25' title='Snippet source file'>snippet source</a> | <a href='#hyperioncustomsettings' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 
@@ -96,12 +96,12 @@ serialization.Options(options);
 When using [additional deserializers](https://docs.particular.net/nservicebus/serialization/#specifying-additional-deserializers) or transitioning between different versions of the same serializer it can be helpful to take explicit control over the content type a serializer passes to NServiceBus (to be used for the [ContentType header](https://docs.particular.net/nservicebus/messaging/headers#serialization-headers-nservicebus-contenttype)).
 
 <!-- snippet: HyperionContentTypeKey -->
-<a id='3261a380'></a>
+<a id='hyperioncontenttypekey'></a>
 ```cs
 var serialization = configuration.UseSerialization<HyperionSerializer>();
 serialization.ContentTypeKey("custom-key");
 ```
-<sup><a href='/src/Tests/Snippets/Usage.cs#L30-L35' title='Snippet source file'>snippet source</a> | <a href='#3261a380' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Snippets/Usage.cs#L30-L35' title='Snippet source file'>snippet source</a> | <a href='#hyperioncontenttypekey' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 
