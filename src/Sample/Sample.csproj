@@ -8,6 +8,6 @@
     <PackageReference Include="Hyperion" Version="0.9.16" />
     <PackageReference Include="NServiceBus" Version="7.4.3" />
     <ProjectReference Include="..\NServiceBus.Hyperion\NServiceBus.Hyperion.csproj" />
-    <PackageReference Include="ProjectDefaults" Version="1.0.46" PrivateAssets="All" />
+    <PackageReference Include="ProjectDefaults" Version="1.0.47" PrivateAssets="All" />
   </ItemGroup>
 </Project>
