@@ -10,6 +10,6 @@
     <PackageReference Include="MarkdownSnippets.MsBuild" Version="23.0.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
     <ProjectReference Include="..\NServiceBus.Hyperion\NServiceBus.Hyperion.csproj" />
-    <PackageReference Include="ProjectDefaults" Version="1.0.53" PrivateAssets="All" />
+    <PackageReference Include="ProjectDefaults" Version="1.0.54" PrivateAssets="All" />
   </ItemGroup>
 </Project>
