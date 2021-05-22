@@ -12,18 +12,6 @@ To change this file edit the source file and then run MarkdownSnippets.
 
 Add support for [NServiceBus](https://particular.net/NServiceBus) message serialization via [Hyperion](https://github.com/akkadotnet/Hyperion) binary serializer.
 
-<!-- toc -->
-## Contents
-
-  * [Community backed](#community-backed)
-    * [Sponsors](#sponsors)
-    * [Patrons](#patrons)
-  * [Support via TideLift](#support-via-tidelift)
-  * [Usage](#usage)
-    * [Custom Settings](#custom-settings)
-    * [Custom content key](#custom-content-key)
-  * [Security contact information](#security-contact-information)<!-- endToc -->
-
 <!--- StartOpenCollectiveBackers -->
 
 [Already a Patron? skip past this section](#endofbacking)
@@ -103,11 +91,6 @@ serialization.ContentTypeKey("custom-key");
 ```
 <sup><a href='/src/Tests/Snippets/Usage.cs#L30-L35' title='Snippet source file'>snippet source</a> | <a href='#snippet-hyperioncontenttypekey' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
-
-
-## Security contact information
-
-To report a security vulnerability, use the [Tidelift security contact](https://tidelift.com/security). Tidelift will coordinate the fix and disclosure.
 
 
 ## Icon
