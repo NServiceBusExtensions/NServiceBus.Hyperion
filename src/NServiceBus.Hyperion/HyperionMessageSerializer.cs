@@ -9,7 +9,7 @@ class HyperionMessageSerializer :
 {
     Serializer serializer;
 
-    public HyperionMessageSerializer(string contentType, SerializerOptions options)
+    public HyperionMessageSerializer(string? contentType, SerializerOptions? options)
     {
         if (options == null)
         {

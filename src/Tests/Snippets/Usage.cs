@@ -17,8 +17,7 @@ class Usage
     {
         #region HyperionCustomSettings
 
-        var options = new SerializerOptions(
-            preserveObjectReferences: true);
+        var options = SerializerOptions.Default.WithPreserveObjectReferences(true);
         var serialization = configuration.UseSerialization<HyperionSerializer>();
         serialization.Options(options);
 

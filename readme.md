@@ -70,12 +70,11 @@ Customizes the instance of `SerializerOptions` used for serialization.
 <!-- snippet: HyperionCustomSettings -->
 <a id='snippet-hyperioncustomsettings'></a>
 ```cs
-var options = new SerializerOptions(
-    preserveObjectReferences: true);
+var options = SerializerOptions.Default.WithPreserveObjectReferences(true);
 var serialization = configuration.UseSerialization<HyperionSerializer>();
 serialization.Options(options);
 ```
-<sup><a href='/src/Tests/Snippets/Usage.cs#L18-L25' title='Snippet source file'>snippet source</a> | <a href='#snippet-hyperioncustomsettings' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Snippets/Usage.cs#L18-L24' title='Snippet source file'>snippet source</a> | <a href='#snippet-hyperioncustomsettings' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 
@@ -89,7 +88,7 @@ When using [additional deserializers](https://docs.particular.net/nservicebus/se
 var serialization = configuration.UseSerialization<HyperionSerializer>();
 serialization.ContentTypeKey("custom-key");
 ```
-<sup><a href='/src/Tests/Snippets/Usage.cs#L30-L35' title='Snippet source file'>snippet source</a> | <a href='#snippet-hyperioncontenttypekey' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Snippets/Usage.cs#L29-L34' title='Snippet source file'>snippet source</a> | <a href='#snippet-hyperioncontenttypekey' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 
