@@ -13,11 +13,11 @@ class HyperionMessageSerializer :
     {
         if (options == null)
         {
-            serializer = new Serializer();
+            serializer = new();
         }
         else
         {
-            serializer = new Serializer(options);
+            serializer = new(options);
         }
 
         if (contentType == null)
@@ -35,7 +35,7 @@ class HyperionMessageSerializer :
         var messageType = message.GetType();
         if (messageType.Name.EndsWith("__impl"))
         {
-            throw new Exception("Interface based message are not currently supported. Create a class that implements the desired interface.");
+            throw new("Interface based message are not currently supported. Create a class that implements the desired interface.");
         }
 
         serializer.Serialize(message, stream);
